@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+button {
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+button:hover {
+  opacity: 0.9;
+}
