@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 
 export default function MovieCard({ movie }) {
@@ -8,9 +8,9 @@ export default function MovieCard({ movie }) {
       <img src={poster} alt={movie.Title} className="poster" />
       <div className="movie-info">
         <h3>{movie.Title}</h3>
-        <p>{movie.Year}</p>
+        <p>{movie.Year}</p>   
         <Link to={`/movie/${movie.imdbID}`} className="details-link">View Details</Link>
-      </div>
+      </div>      
     </div>
   );
 }
